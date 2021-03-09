@@ -18,7 +18,7 @@ const avatarUrl = (
     color = '8b5d5d',
     bgColor = 'f0e9e9',
     uppercase = true,
-    format = 'svg'
+    format = 'png'
   }
 ) => {
   const defaultImg = `https://ui-avatars.com/api/${encodeURIComponent(
