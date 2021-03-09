@@ -9,7 +9,7 @@ const hashEmail = memoize(md5)
 const avatarUrl = (
   hash,
   {
-    name = 'Dan Abramov',
+    name = 'Snehanshu Phukon',
     size = 120,
     fontSize = 0.5,
     initialsLength = 2,
