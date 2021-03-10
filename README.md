@@ -12,18 +12,34 @@ npm install --save react-gravatar-or-initials
 
 ## Usage
 
+View example [here](https://psnehanshu.github.io/react-gravatar-or-initials/)
+
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-gravatar-or-initials'
+import Avatar from 'react-gravatar-or-initials'
 import 'react-gravatar-or-initials/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <Avatar
+        email='hello@snehanshu.com'
+        name='Snehanshu Phukon'
+        size={120}
+        fontSize={0.5}
+        initialsLength={2}
+        color='8b5d5d'
+        bgColor='f0e9e9'
+        uppercase
+      />
+    )
   }
 }
 ```
+
+View example [here](https://psnehanshu.github.io/react-gravatar-or-initials/)
+
 
 ## License
 
