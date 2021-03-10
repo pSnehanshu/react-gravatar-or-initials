@@ -1,10 +1,11 @@
 {
   "name": "react-gravatar-or-initials",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to display user avatars from Gravatar or initials from UI-Avatars.com",
   "author": "pSnehanshu",
   "license": "MIT",
   "repository": "pSnehanshu/react-gravatar-or-initials",
+  "homepage": "https://psnehanshu.github.io/react-gravatar-or-initials/",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
