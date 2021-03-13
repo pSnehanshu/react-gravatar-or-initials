@@ -1,6 +1,6 @@
 {
   "name": "react-gravatar-or-initials",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component to display user avatars from Gravatar or initials from UI-Avatars.com",
   "author": "pSnehanshu",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.12.0 || ^17.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
